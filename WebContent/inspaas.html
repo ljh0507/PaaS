@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>정보입력</title>
+<style type="text/css">
+	#regbox{width : 300px;}
+	#regbox label{display:black; width:100px; float:left;}
+</style>
+</head>
+<body>
+<form method="post" action="inspaas.jsp">
+	<fieldset id = "regbox">	
+		<label for="patnm">이름</label>
+		<input type="text" name="patnm"/><br/>
+		
+		<label for="pid">등록번호</label>
+		<input type="text" name="pid"/><br/>
+		
+		<label for="phone">휴대폰</label>
+		<input type="text" name="phone"/><br/>
+		
+		<label for="addr">주소</label>
+		<input type="text" name="addr"/><br/>
+		
+		<label for="memo">메모</label>
+		<input type="text" name="memo"/><br/>
+		
+		<input type="submit" value="등록"/>
+		<input type="reset" value="취소"/>	
+	</fieldset>
+</form>
+</body>
+</html>
